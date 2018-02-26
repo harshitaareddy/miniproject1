@@ -20,8 +20,25 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+Route::get('/signin', function () {
+    return view('pages.signin');
+});
+
+Route::get('/signup', function () {
+    return view('pages.signup');
+});
+
 Route::post('/contact', function () {
     $data = request() -> all();
     echo "Email:" . $data['email'] . '<br>';
     echo "Body:" . $data['body'] ;
+});
+
+Route::get('/viewmessages', function () {
+    return view('pages.viewmessages');
+});
+
+Route::get('/fitness', function () {
+    return view('pages.fitness');
 });

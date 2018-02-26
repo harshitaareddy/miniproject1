@@ -1,3 +1,3 @@
 <footer class="container">
-    <p>&copy; Company 2017-2018</p>
+   <br> <p>&copy; Fitness World</p>
 </footer>

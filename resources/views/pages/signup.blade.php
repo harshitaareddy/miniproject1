@@ -2,9 +2,9 @@
 
 @section('content')
 
+    <h1 >Register here for one month off! </h1>
 
-
-    <h1>This is my signup page</h1>
+    <div class="container card color">
 
 
 
@@ -20,12 +20,12 @@
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
 
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <p>By Creating an account, you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
     <div class="clearfix">
         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
         <button type="submit" class="signupbtn">Sign Up</button>
-
+    </div>
 
 
 
